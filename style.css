@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+body,html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    background: hsl(210, 46%, 95%);
+}
+.col{
+    padding: 1rem 1.4rem;
+    border-radius: 1.5rem;
+    margin: 2rem 0;
+}
+.title-block{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.img{
+    border-radius: 50%;
+    margin-top: 1rem;
+    width: 60px;
+    height:    60px;
+    margin-right: .8rem;
+}
+.name-block h5{
+    margin-top: -1.3rem;
+}
+.purple{
+    background: hsl(263, 55%, 52%);
+}
+.gray{
+    background: hsl(217, 19%, 35%);
+}
+.dark-blue{
+    background: hsl(219, 29%, 14%);
+}
+.white{
+    background: hsl(0, 0%, 100%);
+}
+.read{
+    color: hsl(0, 0%, 81%);
+}
+.white .read{
+    color: hsl(0, 0%, 50%);
+}
+#lit{
+    color: white;
+}
+.purple .caption{
+    color: white;
+}
+.gray .caption{
+    color: white;
+}
+.dark-blue .caption{
+    color: white;
+}
+.col h5{
+    color: hsl(0, 0%, 50%);
+}
+.caption{
+    font-weight: 600;
+}
+footer{
+    text-align: center;
+    margin-top: 1.4rem;
+}
+
+
+/*responsive for laptops */
+@media only screen and (min-width: 769px)  {
+    html,body{
+        padding: 0rem 0rem;
+        overflow: visible;
+    }
+    .outer-block{
+        display: flex;
+        flex-direction: row;
+    }
+    .lux{
+        display: flex;
+        flex-direction: column;
+    }
+    .single{
+        width:  100vw;
+    }
+    .small{
+        width: 60vw;
+    }
+    .row{
+        display: flex;
+        flex-direction: row;
+    }
+    .col{
+        padding: 1rem 1.4rem;
+        border-radius: 1.5rem;
+        margin: 1rem 0.4rem;
+    }
+}
